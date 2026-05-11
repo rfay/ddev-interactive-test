@@ -18,5 +18,5 @@ post_install_actions:
     read -p "Enter test value for post-install-interactive-test.txt: " VALUE
     echo "VALUE=${VALUE}" > postinstall-interactive-test.txt
     echo "Wrote postinstall-interactive-test.txt"
-    test -f postinstallinstall-interactive-test.txt && cat postinstall-interactive-test.txt
+    test -f postinstall-interactive-test.txt && cat postinstall-interactive-test.txt
     realpath postinstall-interative-test.txt
